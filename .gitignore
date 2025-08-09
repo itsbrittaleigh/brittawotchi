@@ -9,6 +9,13 @@ dist/
 web-build/
 expo-env.d.ts
 
+# Linting/Formatting
+.eslintcache
+.prettiercache
+.husky/
+lint-staged.config.js
+.lintstagedrc*
+
 # Native
 .kotlin/
 *.orig.*
@@ -37,3 +44,4 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
