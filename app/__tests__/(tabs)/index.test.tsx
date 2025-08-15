@@ -1,11 +1,11 @@
 import { render, screen } from '@testing-library/react-native';
 import React from 'react';
-import Index from '../index';
+import Index from '../../(tabs)/index';
 
-describe('Index screen', () => {
-  it('renders welcome text', () => {
+describe('Home', () => {
+  it('renders', () => {
     render(<Index />);
-    const text = screen.getByText('Welcome');
+    const text = screen.getByText('Home');
     expect(text).toBeVisible();
   });
 });
